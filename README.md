@@ -48,7 +48,7 @@ AnemiaSense-AI/
 
 ## 📸 Screenshots
 
-![Home Page](screenshots/homepage.png)  
+![Home Page](homepage.png)  
 *Home page input form*
 
 ![Prediction Result](PredictionResult.png)  
