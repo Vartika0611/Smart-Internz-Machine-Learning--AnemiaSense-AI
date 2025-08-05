@@ -71,7 +71,7 @@ Dataset used from Kaggle:
 
 ## ▶️ Demo Video
 
-📽️ [Watch Demo](demo/AnemiaSense_Demo.mp4) 
+📽️ [Watch Demo](AnemiaSense_DemoVartika.mp4) 
 
 ---
 
