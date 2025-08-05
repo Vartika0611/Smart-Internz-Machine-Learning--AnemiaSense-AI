@@ -65,13 +65,13 @@ Dataset used from Kaggle:
 
 ## ▶️ Demo Video
 
-📽️ [Watch Demo](demo/AnemiaSense_Demo.mp4) *(Embed/upload after push)*
+📽️ [Watch Demo](demo/AnemiaSense_Demo.mp4) 
 
 ---
 
 ## 🧾 Project Documentation
 
-Full project report included in `/documentation/AnemiaSense_Project_Report_Vartika.docx`.
+Full project report included in `VartikaSinghProjectReport`.
 
 ---
 
