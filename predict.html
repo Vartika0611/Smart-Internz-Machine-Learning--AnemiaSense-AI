@@ -1,0 +1,36 @@
+<!-- templates/predict.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <div class="logo">Anemia</div>
+        <ul>
+            <li><a href="/">Home</a></li>
+        </ul>
+        <button class="check-btn">check</button>
+    </nav>
+
+    <!-- <section class="result">
+        <h2>Result</h2>
+        <p>{{ prediction_text }}</p>
+    </section> -->
+    <img src="{{ url_for('static', filename='result.jpg') }}" alt="Anemia Result" class="result-img">
+    <section class="result">
+    <h1>Anemia Predictor: Result</h1>
+    <p>{{ prediction_text }}</p>
+</section>
+
+
+    <footer>
+        <h3>Contact Us</h3>
+        <p>The Smart Bridge<br>Hyderabad, Telangana, India</p>
+        <p><strong>Phone:</strong> +91 9589 55488 55<br><strong>Email:</strong> info@example.com</p>
+        <p>Copyright @Vartika Singh 2025</p>
+    </footer>
+</body>
+</html>

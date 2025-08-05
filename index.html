@@ -1,0 +1,69 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anemia Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <div class="logo">Anemia</div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#form">Predict</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="check-btn">check</button>
+    </nav>
+
+    <section class="hero">
+        <h1>Anemia Predictor: Your Health Guardian</h1>
+        <p>Empowering you with early detection for better management and healthier living.</p>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About</h2>
+        <p>Anemia: low red blood cells or hemoglobin, causing oxygen shortage. <br>
+        Symptoms: fatigue, weakness, shortness of breath, pale skin. <br>
+        Causes: nutritional deficiencies, diseases, blood loss. Treatments vary.</p>
+
+        <div class="cards">
+            <div class="card"><h3>Hemoglobin</h3><p>Men: 13.2–16.6 g/dL, Women: 11.6–15 g/dL</p></div>
+            <div class="card"><h3>MCH</h3><p>Normal range: 27.5–33.2 picograms</p></div>
+            <div class="card"><h3>MCHC</h3><p>Normal range: 33.4–35.5 g/dL</p></div>
+            <div class="card"><h3>MCV</h3><p>Normal range: 80–100 fL</p></div>
+        </div>
+    </section>
+
+    <section class="form-section" id="form">
+        <h2>Enter the details:</h2>
+        <form action="/predict" method="POST">
+            <label>Gender (0 for Female, 1 for Male):</label>
+            <input type="text" name="Gender" required>
+
+            <label>Hemoglobin (Range: 7-16):</label>
+            <input type="text" name="Hemoglobin" required>
+
+            <label>Mean Corpuscular Hemoglobin (MCH) (Range: 16 - 30):</label>
+            <input type="text" name="MCH" required>
+
+            <label>Mean Corpuscular Hemoglobin Concentration (MCHC) (Range: 28 - 54):</label>
+            <input type="text" name="MCHC" required>
+
+            <label>Mean Corpuscular Volume (MCV) (Range: 70 - 100):</label>
+            <input type="text" name="MCV" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer id="contact">
+        <h3>Contact Us</h3>
+        <p>The Smart Bridge<br>Hyderabad, Telangana, India</p>
+        <p><strong>Phone:</strong> +91 9589 55488 55<br><strong>Email:</strong> info@example.com</p>
+        <p>Copyright @Vartika Singh 2025</p>
+    </footer>
+</body>
+</html>
