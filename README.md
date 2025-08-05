@@ -51,7 +51,7 @@ AnemiaSense-AI/
 ![Home Page](screenshots/homepage.png)  
 *Home page input form*
 
-![Prediction Result](screenshots/result.png)  
+![Prediction Result](PredictionResult.png)  
 *Output after prediction*
 
 ---
